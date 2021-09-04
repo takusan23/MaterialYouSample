@@ -20,10 +20,17 @@
         android:layout_margin="10dp"
         android:text="Outlined Button" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="io.github.takusan23.materialyousample.MainFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="CheckBox" />
+
+    <com.google.android.material.chip.Chip
+        style="@style/Widget.Material3.Chip.Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Chip" />
 
 </LinearLayout>
